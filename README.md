@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links（連結）
 
-- Live Site URL: [https://your-live-site-url.com](https://your-live-site-url.com)
+- Live Site URL: [Here](https://jubeatt.github.io/single-price-grid-component/)
 
 ## My process（工作流程）
 
