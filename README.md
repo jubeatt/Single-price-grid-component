@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot（螢幕截圖）
 
-![src_desktop](src_desktop.jpg)
+![src-desktop](README-img/src-desktop.jpg)
 
 ### Links（連結）
 
@@ -167,7 +167,7 @@ It's for this:
 
 為了這個：
 
-![row_01](row_01.jpg)
+![row-01](README-img/row-01.jpg)
 
 ```css
 @media screen and (min-width: 760px) {
@@ -184,13 +184,13 @@ It's for this:
 
 為了這個：
 
-![row_02](row_02.jpg)
+![row-02](README-img/row-02.jpg)
 
 Additionally, because the default setting for flex-item will make them have the same height. so if we don't change the setting, it will seem not symmetrical by the view. like this:
 
 另外，由於 flex 空間會讓子物件自動等高，所以如果沒有做調整的話，畫面看起來會沒有那麼對稱，像這樣：
 
-![equal_height](equal_height.jpg)
+![equal-height](README-img/equal-height.jpg)
 
 If you still don't know what that means, you can the following test :
 
@@ -204,7 +204,7 @@ If you still don't know what that means, you can the following test :
 }
 ```
 
-![flex-start](flex-start.jpg)
+![flex-start](README-img/flex-start.jpg)
 
 To fix this problem, we can add the following code:
 
@@ -238,13 +238,13 @@ Finally, you finished it:
 
 最後你就完成了這個：
 
-![row_02](row_02.jpg)
+![row-02](README-img/row-02.jpg)
 
 Here is the last part. Call-To-Action effect for the sign-up button:
 
 最後一個部分，按鈕的"呼籲（CAT）" 的效果：
 
-![CTA](CTA.gif)
+![CTA](README-img/CTA.gif)
 
 ```css
 @media screen and (min-width: 760px) {
@@ -252,7 +252,7 @@ Here is the last part. Call-To-Action effect for the sign-up button:
     transition: background-color 0.5s;
   }
   .btn:hover {
-    background-color: hsl(71, 94%, 55%);
+    background-color: hsl(71, 73%, 30%);
   }
 }
 ```
