@@ -1,13 +1,13 @@
 html {
   font-size: 62.5%;
 }
-html, body {
+html,
+body {
   height: 100%;
 }
 body {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   font-size: 1.6rem;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
@@ -19,27 +19,26 @@ main {
   padding: 40px 20px;
 }
 .price_grid {
-  max-width: 960px;
-  box-shadow: 0px 3px 7px -3px #5a5a5a;
+  max-width: 760px;
+  box-shadow: 0px 0px 21px 7px rgba(190, 194, 201, 0.3);
   border-radius: 6px;
   overflow: auto; /* for border-radius effect */
   margin-left: auto;
   margin-right: auto;
 }
 .row {
-  box-sizing: border-box;
-  padding: 20px 30px 30px;
+  padding: 30px;
 }
 .main_title {
   color: hsl(179, 62%, 43%);
   font-weight: 700;
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .sub_title {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .row:nth-child(1) {
   background-color: #fff;
@@ -49,7 +48,7 @@ main {
   color: hsl(71, 73%, 54%);
   font-weight: 700;
   line-height: 1.3;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .row:nth-child(1) p {
@@ -62,20 +61,20 @@ main {
 }
 .row:nth-child(2) p {
   color: hsl(204, 43%, 80%);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .row:nth-child(2) .price {
   display: inline-block;
   padding-right: 5px;
   vertical-align: middle;
-  font-size: 3rem;
+  font-size: 3.4rem;
   font-weight: bold;
   color: #fff;
 }
 
 .row:nth-child(2) small {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: hsl(204, 43%, 93%);
 }
 .row:nth-child(3) {
@@ -84,7 +83,7 @@ main {
 
 .row:nth-child(3) li {
   color: hsl(204, 43%, 87%);
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .btn {
@@ -100,14 +99,6 @@ main {
   text-align: center;
 }
 
-footer {
-  padding: 10px 0;
-}
-footer .attribution {
-  text-align: center;
-  font-size: 1.2rem;
-  color: #000;
-}
 @media screen and (min-width: 760px) {
   main {
     display: flex;
@@ -121,8 +112,9 @@ footer .attribution {
   .main_title {
     font-size: 2.5rem;
   }
+
   .row {
-    padding: 50px 40px;
+    padding: 40px;
   }
   .row:nth-child(1) p {
     max-width: 560px;
@@ -134,13 +126,14 @@ footer .attribution {
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
+
   .row:nth-child(3) {
     flex-basis: 50%;
   }
   .btn {
     transition: background-color 0.5s;
+    margin-top: auto;
   }
   .btn:hover {
     background-color: hsl(71, 73%, 30%);
