@@ -33,7 +33,7 @@ Frontend Mentor challenges 是一個藉由實際建立專案，來提升 coding 
 
 ### 連結
 
-- Live Site URL: [Here](https://jubeatt.github.io/single-price-grid-component/)
+- Live Site URL: [Here](https://jubeatt.github.io/Single-price-grid-component/)
 
 ## 工作流程
 

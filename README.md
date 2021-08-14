@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Here](https://jubeatt.github.io/single-price-grid-component/)
+- Live Site URL: [Here](https://jubeatt.github.io/Single-price-grid-component/)
 
 ## My process
 
