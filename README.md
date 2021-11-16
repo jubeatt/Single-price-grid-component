@@ -207,8 +207,8 @@ Here is the last part. Call-To-Action effect for the sign-up button:
 
 ## Author
 
-- Website - [Jim's blog](https://jubeatt.github.io/)
-- Frontend Mentor - [Jim](https://www.frontendmentor.io/profile/jubeatt)
+- Website - [PeaNu's Paradise](https://jubeatt.github.io/)
+- Frontend Mentor - [PeaNu](https://www.frontendmentor.io/profile/jubeatt)
 - Facebook - [薛裕正](https://www.facebook.com/profile.php?id=100003593580513)
 
 ## Acknowledgments
